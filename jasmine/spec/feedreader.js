@@ -123,7 +123,7 @@ $(function () {
                 });
             });
         });
-        it('content of each feed changes', done => {
+        it('content changes', done => {
             expect(firstContent).not.toBe(secondContent);
             done();
         });
