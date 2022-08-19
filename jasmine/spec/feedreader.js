@@ -65,9 +65,8 @@ $(function () {
             classList = [bodyEl.ClassList].length;
         });
         it('menu hidden by default', () => {
-            let nameOfClass = 'menu-hidden';
             expect(classList).toBe(1);
-            expect(bodyEl.className).toBe(nameOfClass);
+            expect(bodyEl.className).toBe('menu-hidden');
         });
 
         /* TODO: Write a test that ensures the menu changes
